@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="899c118b83a58bd0922de290ceaad378" extends="sys_import_set_row" label="complaints" max_length="40" name="x_2064579_campus_0_complaints" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=number" label="number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=department" label="department" max_length="40" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=location" label="location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=issue_type" label="issue_type" max_length="40" name="u_issue_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=urgency" label="urgency" max_length="40" name="u_urgency" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=created_on" label="created_on" max_length="40" name="u_created_on" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=issue" label="issue" max_length="40" name="u_issue" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=status" label="status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=complainant" label="complainant" max_length="40" name="u_complainant" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="41" name="u_description" type="string"/>
+    </element>
+</database>
