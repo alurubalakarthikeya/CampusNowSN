@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Campus Compliant Management">36a2f98798698bd0e2828e8c7c2bb027</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Search Page">faa2f98739698bd051cb7fd2edba8a5c</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 18:49:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>fea2f987cc698bd0ac31beb6d62b8e31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Campus Compliant Management" source="x_2064579_campus_0">41959c4383ad4bd0922de290ceaad3fa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Campus Compliant Management">41959c4383ad4bd0922de290ceaad3fa</sys_scope>
+        <sys_update_name>sys_ux_page_property_fea2f987cc698bd0ac31beb6d62b8e31</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 18:49:24</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_2064579_campus_0.36a2f98798698bd0e2828e8c7c2bb027.route.chrome_header.faa2f98739698bd051cb7fd2edba8a5c</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}&#13;
+</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=fea2f987cc698bd0ac31beb6d62b8e31"/>
+</record_update>

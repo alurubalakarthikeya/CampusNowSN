@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="76a2f98757698bd04207655fde6fdc69" sys_domain="global" table="sys_user" version="3" view="custom_portal_settings_x_2064579_campus_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 18:49:25</sys_created_on>
+            <sys_id>7ea2f987da698bd037564c76f3feb369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="7aa2f987d6698bd06716f759838c9169">76a2f98757698bd04207655fde6fdc69</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 18:49:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 18:49:25</sys_created_on>
+            <sys_id>72a2f987fc698bd01f97e6bec569176a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="7aa2f987d6698bd06716f759838c9169">76a2f98757698bd04207655fde6fdc69</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 18:49:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_language</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 18:49:25</sys_created_on>
+            <sys_id>faa2f987ca698bd0860206fd48f61c67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="7aa2f987d6698bd06716f759838c9169">76a2f98757698bd04207655fde6fdc69</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 18:49:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 18:49:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76a2f98757698bd04207655fde6fdc69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Campus Compliant Management" source="x_2064579_campus_0">41959c4383ad4bd0922de290ceaad3fa</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Campus Compliant Management">41959c4383ad4bd0922de290ceaad3fa</sys_scope>
+            <sys_update_name>sys_ui_section_76a2f98757698bd04207655fde6fdc69</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 18:49:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal settings (x_2064579_campus_0)" name="custom_portal_settings_x_2064579_campus_0">7aa2f987d6698bd06716f759838c9169</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

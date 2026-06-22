@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Campus Compliant Management App Config">3aa2f98750698bd039a7de65094aa127</app_config>
+        <description/>
+        <extension_point/>
+        <fields>sysId</fields>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>Catalog Item Page</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>catalog</route_type>
+        <screen_type display_value="Catalog Item Page">f6a2f987ea698bd0941bc3124103945a</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 18:49:18</sys_created_on>
+        <sys_id>f2a2f987ac698bd0754431ca163d9e59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Catalog Item Page</sys_name>
+        <sys_package display_value="Campus Compliant Management" source="x_2064579_campus_0">41959c4383ad4bd0922de290ceaad3fa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Campus Compliant Management">41959c4383ad4bd0922de290ceaad3fa</sys_scope>
+        <sys_update_name>sys_ux_app_route_f2a2f987ac698bd0754431ca163d9e59</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 18:49:18</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=f2a2f987ac698bd0754431ca163d9e59"/>
+</record_update>

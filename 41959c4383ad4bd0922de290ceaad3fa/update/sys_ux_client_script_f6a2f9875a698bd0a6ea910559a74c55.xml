@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Tasks">fea2f987d1698bd08c034e1b72dddf55</macroponent>
+        <name>Task Approve/Reject</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const approveOrReject = event.elementId;
+    if (approveOrReject == 'button_2') {
+        const approveFileds =
+            `state=approved`;
+        api.data.update_record_1.execute({
+            'table': 'sysapproval_approver',
+            'recordId': api.context.props.approvalId,
+            'templateFields': approveFileds,
+            'useSetDisplayValue': ''
+        });
+    } else if (approveOrReject == 'button_1') {
+        const rejectedFileds =
+            `state=rejected`;
+        api.data.update_record_1.execute({
+            'table': 'sysapproval_approver',
+            'recordId': api.context.props.approvalId,
+            'templateFields': rejectedFileds,
+            'useSetDisplayValue': ''
+        });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 18:49:19</sys_created_on>
+        <sys_id>f6a2f9875a698bd0a6ea910559a74c55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Approve/Reject</sys_name>
+        <sys_package display_value="Campus Compliant Management" source="x_2064579_campus_0">41959c4383ad4bd0922de290ceaad3fa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Campus Compliant Management">41959c4383ad4bd0922de290ceaad3fa</sys_scope>
+        <sys_update_name>sys_ux_client_script_f6a2f9875a698bd0a6ea910559a74c55</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 18:49:19</sys_updated_on>
+        <target/>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
