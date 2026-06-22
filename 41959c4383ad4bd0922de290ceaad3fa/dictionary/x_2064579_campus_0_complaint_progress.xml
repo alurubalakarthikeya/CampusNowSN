@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3e18e14383298bd0922de290ceaad32c" label="Complaint Progress" max_length="40" name="x_2064579_campus_0_complaint_progress" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Comment" max_length="40" name="comment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Complaint" max_length="40" name="complaint" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
+                <element inactive_on_update="false" label="Closed" sequence="0" value="Closed"/>
+                <element inactive_on_update="false" label="Resolved" sequence="0" value="Resolved"/>
+                <element inactive_on_update="false" label="In Progress" sequence="0" value="In Progress"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="Pending"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Timestamp" max_length="40" name="timestamp" type="string">
+            <choice>
+                <element inactive_on_update="false" label="2026-06-02 05:00:00" sequence="0" value="2026-06-02 05:00:00"/>
+                <element inactive_on_update="false" label="2026-06-02 09:00:00" sequence="0" value="2026-06-02 09:00:00"/>
+                <element inactive_on_update="false" label="2026-06-03 21:00:00" sequence="0" value="2026-06-03 21:00:00"/>
+                <element inactive_on_update="false" label="2026-06-03 17:00:00" sequence="0" value="2026-06-03 17:00:00"/>
+                <element inactive_on_update="false" label="2026-06-03 13:00:00" sequence="0" value="2026-06-03 13:00:00"/>
+                <element inactive_on_update="false" label="2026-06-09 21:00:00" sequence="0" value="2026-06-09 21:00:00"/>
+                <element inactive_on_update="false" label="2026-06-09 17:00:00" sequence="0" value="2026-06-09 17:00:00"/>
+                <element inactive_on_update="false" label="2026-06-10 09:00:00" sequence="0" value="2026-06-10 09:00:00"/>
+                <element inactive_on_update="false" label="2026-06-05 05:00:00" sequence="0" value="2026-06-05 05:00:00"/>
+                <element inactive_on_update="false" label="2026-06-09 13:00:00" sequence="0" value="2026-06-09 13:00:00"/>
+                <element inactive_on_update="false" label="2026-06-10 05:00:00" sequence="0" value="2026-06-10 05:00:00"/>
+                <element inactive_on_update="false" label="2026-06-09 09:00:00" sequence="0" value="2026-06-09 09:00:00"/>
+                <element inactive_on_update="false" label="2026-06-10 01:00:00" sequence="0" value="2026-06-10 01:00:00"/>
+                <element inactive_on_update="false" label="2026-06-10 13:00:00" sequence="0" value="2026-06-10 13:00:00"/>
+                <element inactive_on_update="false" label="2026-06-05 09:00:00" sequence="0" value="2026-06-05 09:00:00"/>
+                <element inactive_on_update="false" label="2026-06-06 01:00:00" sequence="0" value="2026-06-06 01:00:00"/>
+                <element inactive_on_update="false" label="2026-06-05 21:00:00" sequence="0" value="2026-06-05 21:00:00"/>
+                <element inactive_on_update="false" label="2026-06-11 09:00:00" sequence="0" value="2026-06-11 09:00:00"/>
+                <element inactive_on_update="false" label="2026-06-05 17:00:00" sequence="0" value="2026-06-05 17:00:00"/>
+                <element inactive_on_update="false" label="2026-06-10 17:00:00" sequence="0" value="2026-06-10 17:00:00"/>
+                <element inactive_on_update="false" label="2026-06-11 05:00:00" sequence="0" value="2026-06-11 05:00:00"/>
+                <element inactive_on_update="false" label="2026-06-02 01:00:00" sequence="0" value="2026-06-02 01:00:00"/>
+                <element inactive_on_update="false" label="2026-06-05 13:00:00" sequence="0" value="2026-06-05 13:00:00"/>
+                <element inactive_on_update="false" label="2026-06-02 17:00:00" sequence="0" value="2026-06-02 17:00:00"/>
+                <element inactive_on_update="false" label="2026-06-03 05:00:00" sequence="0" value="2026-06-03 05:00:00"/>
+                <element inactive_on_update="false" label="2026-06-03 01:00:00" sequence="0" value="2026-06-03 01:00:00"/>
+                <element inactive_on_update="false" label="2026-06-02 21:00:00" sequence="0" value="2026-06-02 21:00:00"/>
+                <element inactive_on_update="false" label="2026-06-03 09:00:00" sequence="0" value="2026-06-03 09:00:00"/>
+                <element inactive_on_update="false" label="2026-06-09 05:00:00" sequence="0" value="2026-06-09 05:00:00"/>
+                <element inactive_on_update="false" label="2026-06-09 01:00:00" sequence="0" value="2026-06-09 01:00:00"/>
+                <element inactive_on_update="false" label="2026-06-08 21:00:00" sequence="0" value="2026-06-08 21:00:00"/>
+                <element inactive_on_update="false" label="2026-06-08 17:00:00" sequence="0" value="2026-06-08 17:00:00"/>
+                <element inactive_on_update="false" label="2026-06-01 21:00:00" sequence="0" value="2026-06-01 21:00:00"/>
+                <element inactive_on_update="false" label="2026-06-11 01:00:00" sequence="0" value="2026-06-11 01:00:00"/>
+                <element inactive_on_update="false" label="2026-06-10 21:00:00" sequence="0" value="2026-06-10 21:00:00"/>
+                <element inactive_on_update="false" label="2026-06-02 13:00:00" sequence="0" value="2026-06-02 13:00:00"/>
+                <element inactive_on_update="false" label="2026-06-08 05:00:00" sequence="0" value="2026-06-08 05:00:00"/>
+                <element inactive_on_update="false" label="2026-06-08 01:00:00" sequence="0" value="2026-06-08 01:00:00"/>
+                <element inactive_on_update="false" label="2026-06-08 13:00:00" sequence="0" value="2026-06-08 13:00:00"/>
+                <element inactive_on_update="false" label="2026-06-08 09:00:00" sequence="0" value="2026-06-08 09:00:00"/>
+                <element inactive_on_update="false" label="2026-06-04 17:00:00" sequence="0" value="2026-06-04 17:00:00"/>
+                <element inactive_on_update="false" label="2026-06-04 13:00:00" sequence="0" value="2026-06-04 13:00:00"/>
+                <element inactive_on_update="false" label="2026-06-04 09:00:00" sequence="0" value="2026-06-04 09:00:00"/>
+                <element inactive_on_update="false" label="2026-06-05 01:00:00" sequence="0" value="2026-06-05 01:00:00"/>
+                <element inactive_on_update="false" label="2026-06-04 21:00:00" sequence="0" value="2026-06-04 21:00:00"/>
+                <element inactive_on_update="false" label="2026-06-01 13:00:00" sequence="0" value="2026-06-01 13:00:00"/>
+                <element inactive_on_update="false" label="2026-06-01 17:00:00" sequence="0" value="2026-06-01 17:00:00"/>
+                <element inactive_on_update="false" label="2026-06-06 09:00:00" sequence="0" value="2026-06-06 09:00:00"/>
+                <element inactive_on_update="false" label="2026-06-06 05:00:00" sequence="0" value="2026-06-06 05:00:00"/>
+                <element inactive_on_update="false" label="2026-06-06 13:00:00" sequence="0" value="2026-06-06 13:00:00"/>
+                <element inactive_on_update="false" label="2026-06-07 05:00:00" sequence="0" value="2026-06-07 05:00:00"/>
+                <element inactive_on_update="false" label="2026-06-07 01:00:00" sequence="0" value="2026-06-07 01:00:00"/>
+                <element inactive_on_update="false" label="2026-06-07 17:00:00" sequence="0" value="2026-06-07 17:00:00"/>
+                <element inactive_on_update="false" label="2026-06-06 21:00:00" sequence="0" value="2026-06-06 21:00:00"/>
+                <element inactive_on_update="false" label="2026-06-07 13:00:00" sequence="0" value="2026-06-07 13:00:00"/>
+                <element inactive_on_update="false" label="2026-06-06 17:00:00" sequence="0" value="2026-06-06 17:00:00"/>
+                <element inactive_on_update="false" label="2026-06-07 09:00:00" sequence="0" value="2026-06-07 09:00:00"/>
+                <element inactive_on_update="false" label="2026-06-04 01:00:00" sequence="0" value="2026-06-04 01:00:00"/>
+                <element inactive_on_update="false" label="2026-06-07 21:00:00" sequence="0" value="2026-06-07 21:00:00"/>
+                <element inactive_on_update="false" label="2026-06-04 05:00:00" sequence="0" value="2026-06-04 05:00:00"/>
+            </choice>
+        </element>
+    </element>
+</database>
