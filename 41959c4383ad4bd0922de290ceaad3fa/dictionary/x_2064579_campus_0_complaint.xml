@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8137d04783ad4bd0922de290ceaad373" label="complaint" max_length="40" name="x_2064579_campus_0_complaint" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Urgency" mandatory="true" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="1" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="0" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="Medium"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Issue type" max_length="40" name="issue_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Library" sequence="0" value="Library"/>
+                <element inactive_on_update="false" label="Class" sequence="0" value="class"/>
+                <element inactive_on_update="false" label="Software" sequence="4" value="software"/>
+                <element inactive_on_update="false" label="Lecturer" sequence="2" value="lecturer"/>
+                <element inactive_on_update="false" label="Evaluation" sequence="6" value="evaluation"/>
+                <element inactive_on_update="false" label="IT" sequence="0" value="IT"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="0" value="Maintenance"/>
+                <element inactive_on_update="false" label="Subject" sequence="7" value="subject"/>
+                <element inactive_on_update="false" label="Lab" sequence="5" value="lab"/>
+                <element inactive_on_update="false" label="Hardware" sequence="3" value="hardware"/>
+                <element inactive_on_update="false" label="Infrastructure" sequence="1" value="infrastructure"/>
+            </choice>
+        </element>
+        <element choice="1" label="Impact" mandatory="true" max_length="40" name="impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="0" value="High"/>
+            </choice>
+        </element>
+        <element label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
+        <element label="Issue" mandatory="true" max_length="40" name="issue" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

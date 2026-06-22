@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Default user role</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_2064579_campus_0.user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 12:02:34</sys_created_on>
+        <sys_id>e995108383ad4bd0922de290ceaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2064579_campus_0.user</sys_name>
+        <sys_package display_value="Campus Compliant Management" source="x_2064579_campus_0">41959c4383ad4bd0922de290ceaad3fa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Campus Compliant Management">41959c4383ad4bd0922de290ceaad3fa</sys_scope>
+        <sys_update_name>sys_user_role_e995108383ad4bd0922de290ceaad374</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 12:02:34</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Campus Compliant Management">41959c4383ad4bd0922de290ceaad3fa</application>
+        <file_path/>
+        <instance_id>c778315c3bc29e90677f04e0b5e45a57</instance_id>
+        <instance_name>dev290063</instance_name>
+        <name>sys_user_role_e995108383ad4bd0922de290ceaad374</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Default user role</description><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_2064579_campus_0.user</name><scoped_admin>false</scoped_admin><suffix>user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-22 12:02:34</sys_created_on><sys_id>e995108383ad4bd0922de290ceaad374</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2064579_campus_0.user</sys_name><sys_package display_value="Campus Compliant Management" source="x_2064579_campus_0">41959c4383ad4bd0922de290ceaad3fa</sys_package><sys_policy/><sys_scope display_value="Campus Compliant Management">41959c4383ad4bd0922de290ceaad3fa</sys_scope><sys_update_name>sys_user_role_e995108383ad4bd0922de290ceaad374</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-22 12:02:34</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>1254589432</payload_hash>
+        <record_name>x_2064579_campus_0.user</record_name>
+        <reverted_from/>
+        <source>4995108383ad4bd0922de290ceaad32b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 12:02:34</sys_created_on>
+        <sys_id>2995108383ad4bd0922de290ceaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eef36012c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 12:02:34</sys_updated_on>
+        <type>Role</type>
+        <update_guid>e59510830aad4bd085372635e34de578</update_guid>
+        <update_guid_history>e59510830aad4bd085372635e34de578:1254589432</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_2064579_campus_0.user">522cd88f83ad4bd0922de290ceaad3a6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 12:31:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>09489d3992404c0b8072e42e29d0b139</sys_id>
+        <sys_metadata>e995108383ad4bd0922de290ceaad374</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2064579_campus_0.user</sys_name>
+        <sys_package display_value="Campus Compliant Management" source="x_2064579_campus_0">41959c4383ad4bd0922de290ceaad3fa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Campus Compliant Management">41959c4383ad4bd0922de290ceaad3fa</sys_scope>
+        <sys_scope_delete display_value="">7c73cf1377644510b6f6a16ca3011100</sys_scope_delete>
+        <sys_update_name>sys_user_role_e995108383ad4bd0922de290ceaad374</sys_update_name>
+        <sys_update_version display_value="sys_user_role_e995108383ad4bd0922de290ceaad374">2995108383ad4bd0922de290ceaad379</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 12:31:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
