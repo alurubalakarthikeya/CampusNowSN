@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Campus Complaint Hub">36df4d0383658bd0922de290ceaad325</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Progress made on complaints</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Complaint Progress</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_2064579_campus_0_complaint_progress</name>
+        <order>200</order>
+        <override_menu_roles>true</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2064579_campus_0.resolver,x_2064579_campus_0.complainant,x_2064579_campus_0.admin,x_2064579_campus_0.complaint_manager</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 18:23:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c8ce58b83298bd0922de290ceaad36f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Complaint Progress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Campus Compliant Management" source="x_2064579_campus_0">41959c4383ad4bd0922de290ceaad3fa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Campus Compliant Management">41959c4383ad4bd0922de290ceaad3fa</sys_scope>
+        <sys_update_name>sys_app_module_0c8ce58b83298bd0922de290ceaad36f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 18:24:40</sys_updated_on>
+        <timeline_page/>
+        <title>Complaint Progress</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
